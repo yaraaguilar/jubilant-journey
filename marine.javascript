@@ -5,7 +5,8 @@
         Boolean
         Number
         Array
-        Object
+
+        All variables are objects
 */
 
 // String
