@@ -1,5 +1,5 @@
 
-let appsOnPhone = 100;
+let appsOnPhone = 25;
 // limit of apps on phone is 25 //
 let storageSpace = 90;
 // 100 is the limit for storage space //
