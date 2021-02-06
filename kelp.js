@@ -3,11 +3,6 @@ let appsOnPhone = 0;
 // limit of apps on phone is 25 //
 let storageSpace = 0;
 // 100 is the limit for storage space //
-function getStorageSpace()
-{
-    prompt("Please enter your storage space: ");
-    storageSpace = document.querySelector();
-}
 
 if (appsOnPhone >= 20 && storageSpace >= 70)
 {
