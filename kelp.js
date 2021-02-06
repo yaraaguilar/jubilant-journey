@@ -1,7 +1,7 @@
 
-let appsOnPhone = 0;
+let appsOnPhone = 100;
 // limit of apps on phone is 25 //
-let storageSpace = 0;
+let storageSpace = 90;
 // 100 is the limit for storage space //
 
 if (appsOnPhone >= 20 && storageSpace >= 70)
@@ -31,5 +31,5 @@ else if (appsOnPhone === 0 && storageSpace === 0)
 else
 
 {
-    alert("Hmm, you haven't told me how many apps or how much your storage space is.")
+    alert("Hmm, you haven't told me how many apps you have or what your storage space is.")
 }
