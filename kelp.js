@@ -1,4 +1,6 @@
 
+// Program 1: If and Else If //
+
 let appsOnPhone = 25;
 // limit of apps on phone is 25 //
 let storageSpace = 90;
@@ -33,3 +35,7 @@ else
 {
     alert("Hmm, you haven't told me how many apps you have or what your storage space is.")
 }
+
+// Program 2: Switch //
+// Program 3: Ternary //
+// Program 4: Event handler //
