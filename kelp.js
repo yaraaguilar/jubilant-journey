@@ -37,5 +37,36 @@ else
 }
 
 // Program 2: Switch //
+
+let academiaAesthetics = ["Dark academia", "Light academia", "Classical academia", "Romantic academia", "Royalty core academia", "Pastel academia"];
+
+let yourAesthetic = academiaAesthetics[5];
+
+switch(yourAesthetic)
+{
+    case academiaAesthetics[0]:
+        alert("So you're the thoughtful type, huh? Halloween all year round? Let's get some Harry Potter books and read in a dark room lighted with candles!");
+    break;
+    
+    case academiaAesthetics[1]:
+        alert("Cheery and happy classicals, right? You're dark academia's counterpart! Let's get some wool sweaters and study!");
+    break;
+
+    case academiaAesthetics[2]:
+        alert("Hmm... not a show-off, eh? Like to keep it classy? Well, then, I can handle that! Throw me any Charles Dickens question, and I'll give you the answer!");
+    break;
+
+    case academiaAesthetics[3]:
+        alert("Are you imagining yourself in a castle, dancing with your prince charming? Your dream will come true one day...");
+    break;
+
+    case academiaAesthetics[4]:
+        alert("Now, you might not want to compare yourself with Ms./Mr. Romantic academia, but I think you two have a lot in common! One day, you'll have the castle of your dreams, and live a better life than the ones in Disney...");
+    break;
+
+    case academiaAesthetics[5]:
+        alert("Awww, I love pastel colors too! Why don't we go study and rewrite our notes in a pastel theme? Are you wearing flats? Of course you are!");
+    break;
+}
 // Program 3: Ternary //
 // Program 4: Event handler //
