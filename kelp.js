@@ -52,7 +52,7 @@ else
     alert("Hmm, you haven't told me how many apps you have or what your storage space is.")
 }
 
-// Program 2: Switch //
+// Program 3: Switch //
 
 let academiaAesthetics = ["Dark academia", "Light academia", "Classical academia", "Romantic academia", "Royalty core academia", "Pastel academia"];
 
@@ -84,7 +84,7 @@ switch(yourAesthetic)
         alert("Awww, I love pastel colors too! Why don't we go study and rewrite our notes in a pastel theme? Are you wearing flats? Of course you are!");
     break;
 }
-// Program 3: Ternary //
+// Program 4: Ternary //
 
-
-// Program 4: Event handler //
+let knowHowToBake = true;
+knowHowToBake ? alert("Wait, you know how to bake? Would you mind making some bluberry muffins for me?") : alert("It's okay. We can just save time and money by buying it in our local bakery!");
