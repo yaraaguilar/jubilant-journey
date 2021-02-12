@@ -1,5 +1,21 @@
 
-// Program 1: If and Else If //
+// Program 1: If //
+
+let toyBabiesOfSis = 12;
+
+if (! toyBabiesOfSis >= 20)
+{
+	alert("Do you want more toy babies for your birthday?");
+	// Of course you do... creepy little babies... //
+}
+
+else 
+{
+	alert("Wow! Those are a lot of babies to take care of *wink wink*");
+}
+
+
+// Program 2: If and Else If //
 
 let appsOnPhone = 25;
 // limit of apps on phone is 25 //
@@ -69,4 +85,6 @@ switch(yourAesthetic)
     break;
 }
 // Program 3: Ternary //
+
+
 // Program 4: Event handler //
