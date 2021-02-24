@@ -1,4 +1,4 @@
-// Program 1: Local
+// named function 
 
 const numeroUno = 21;
 const numeroDos = 7;
@@ -28,4 +28,16 @@ subtractYourNumbers(numeroUno, numeroDos);
 divideYourNumbers(numeroUno, numeroDos);
 multiplyYourNumbers(numeroUno, numeroDos);
 
-// Program 2: Global
+// anonymous function
+
+const throwbackThursday = document.querySelector("button");
+throwbackThursday.onclick = function()
+{
+    alert("Remember that joke, around five years ago that went: 'What's nine plus ten?' And then someone answered, 'twenty-one!'");
+}
+
+const throwbackThursday2 = function() 
+{
+    alert("Remeber when the song, 'What Does the Fox Say?' was extremely popular? I do, and I was in fourth grade!");
+}
+// method 
