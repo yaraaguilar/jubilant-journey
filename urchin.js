@@ -40,4 +40,43 @@ const throwbackThursday2 = function()
 {
     alert("Remeber when the song, 'What Does the Fox Say?' was extremely popular? I do, and I was in fourth grade!");
 }
-// method 
+// method ... all of these per minute
+
+const rdsTraining = 
+{
+    howManyDribbles : 30,
+    howManyPasses : 2,
+    howManyTouches : 50,
+    howManyJuggles : 40,
+    howManyShotsAtGoal : 20
+}
+function retrieveAmountOfDribbles(howManyDribbles)
+{
+    return howManyDribbles;
+}
+
+function retrieveAmountOfPasses(howManyPasses)
+{
+    return howManyPasses;
+}
+
+function retrieveAmountOfTouches(howManyTouches)
+{
+    return howManyTouches;
+}
+
+function retrieveAmountOfJuggles(howManyJuggles)
+{
+    return howManyJuggles;
+}
+
+function retrieveAmountOfShotsAtGoal(howManyShotsAtGoal)
+{
+    return howManyShotsAtGoal;
+}
+
+retrieveAmountOfDribbles(rdsTraining);
+retrieveAmountOfPasses(rdsTraining);
+retrieveAmountOfTouches(rdsTraining);
+retrieveAmountOfJuggles(rdsTraining);
+retrieveAmountOfShotsAtGoal(rdsTraining);
